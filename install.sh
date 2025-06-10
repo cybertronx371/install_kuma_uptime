@@ -9,7 +9,7 @@
 # kemudian mengunduh Uptime Kuma dan menjalankannya dalam sebuah container Docker.
 # Uptime Kuma akan dikonfigurasi untuk hanya merespon pada IP 172.16.97.3.
 #
-# Dibuat oleh: Gemini
+# Dibuat oleh: neocor
 # Tanggal: 9 Juni 2025
 #
 # ==============================================================================
@@ -17,7 +17,7 @@
 # -- Variabel Konfigurasi --
 # Alamat IP yang akan digunakan oleh Uptime Kuma
 # Pastikan server ini memiliki interface dengan IP ini.
-UPTIME_KUMA_IP="172.16.97.3"
+UPTIME_KUMA_IP="172.0.0.1"
 
 # Port yang akan digunakan di host. Port internal container adalah 3001.
 UPTIME_KUMA_PORT="3001"
